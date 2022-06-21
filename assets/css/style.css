@@ -15,13 +15,13 @@
 
 
 #slide .card-slide{
- width:50rem !important;
+ width:50% !important;
  margin: 0;
 }
 
 @media (max-width:420px) {
   #slide .card-slide{
-    width: 90vw !important;
+    width: 300px !important;
     margin: 0px !important;
     display: flex;
     justify-content: space-between;
