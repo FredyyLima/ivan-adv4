@@ -7,10 +7,10 @@
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #daa520;
+  border: 1px solid #056518;
 }
 #slide .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #daa520;
+  background-color: #056518;
 }
 
 
@@ -78,9 +78,11 @@
 }
 
 #nome{
-  color: #daa520;
+  color: #056518;
 }
-
+#nomeInicio{
+  color: #04fa35;
+}
 
 .s-title {
   font-size: 1.4rem;
@@ -92,10 +94,13 @@
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color:#daa520;
+  background-color:#056518;
   box-shadow: 0 0 0 10px #a07b1d72;
 }
 
+.service-content li {
+  text-align: left;
+}
 .ico-circle {
   transition: all 500ms ease;
   display: inline-flex;
@@ -142,7 +147,7 @@
   
 }
 .formulario form{
-  background-color: #daa520 ;
+  background-color: #056518 ;
   padding: 2rem;
   border-radius: 20px;
 }
@@ -151,7 +156,7 @@
   color: #444444;
   padding: 20px;
   width: 100%;
-  background: #daa520;
+  background: #056518;
   margin: 0 0 1rem 0;
   border-radius: 10px;
 }
@@ -267,7 +272,7 @@
   align-self: center;
   margin-top: 40rem;
   animation: mover 1s infinite alternate;
-  color: #daa520;
+  color: #04fa35;
 }
 
 @keyframes mover {
@@ -446,11 +451,11 @@ p {
 }
 
 .hvr-shutter-in-horizontal::before {
-  background: #daa520;
+  background: #056518;
 }
 
 .hvr-shutter-in-horizontal:hover {
-  background: #daa520;
+  background: #056518;
 }
 
 .mb-30 {
@@ -471,7 +476,7 @@ p {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #daa520;
+  background: #056518;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -483,7 +488,7 @@ p {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #e3b134;
+  background: #089c25;
   color: #fff;
 }
 .back-to-top.active {
@@ -564,7 +569,7 @@ p {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #daa520;
+  color: #056518;
 }
 .navbar .dropdown ul {
   display: block;
@@ -591,7 +596,7 @@ p {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #daa520;
+  color: #056518;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -676,7 +681,7 @@ p {
   color: #4b4a4a;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #daa520;
+  color: #056518;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -824,7 +829,7 @@ p {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #daa520;
+  border: 20px solid #056518;
 }
 
 #about .div-img-bg .about-img img {
@@ -862,7 +867,7 @@ p {
   margin: 10px 0;
   position: relative;
   font-size: 13px;
-  color: #daa520;
+  color: #056518;
   letter-spacing: 0.1em;
   font-weight: 500;
   text-transform: uppercase;
@@ -877,7 +882,7 @@ p {
 
 .services-block i {
   font-size: 44px;
-  color: #daa520;
+  color: #056518;
   line-height: 44px;
 }
 
@@ -890,10 +895,10 @@ p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #daa520;
+  border: 1px solid #056518;
 }
 .services-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #daa520;
+  background-color: #056518;
 }
 
 
@@ -978,6 +983,10 @@ p {
 
 #contact textarea {
   min-height: 160px;
+}
+
+#contact p{
+  color: white;
 }
 
 .php-email-form .error-message {
@@ -1643,4 +1652,22 @@ blockquote {
 
 #redesSociais:hover i{
   color: #fff !important;
+}
+
+#wpp{
+
+  animation: pulse 0.9s infinite alternate;
+  animation-timing-function: ease;
+  z-index: 100000;
+  
+}
+
+@keyframes pulse {
+
+from{
+  transform: scale(1,1);
+}
+to{
+  transform: scale(0.8,0.8);
+}
 }
