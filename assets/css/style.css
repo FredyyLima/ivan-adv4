@@ -1602,6 +1602,8 @@ blockquote {
     float: none;
     display: inline-block;
   }
+
+
 }
 /** Width between 320px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1696,7 +1698,8 @@ blockquote {
 }
 
 #wpp{
-
+  /* bottom:63px;
+  right:5%; */
   animation: pulse 0.9s infinite alternate;
   animation-timing-function: ease;
   z-index: 100000;
